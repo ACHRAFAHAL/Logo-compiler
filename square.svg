@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+    <path d="M 100 100 L 200 100 " style="fill:rgb(0,0,0);stroke:rgb(0,0,255);stroke-width:1;fill-opacity:1;stroke-opacity:1;"/>
+    <path d="M 200 100 L 200 200 " style="fill:rgb(0,0,0);stroke:rgb(0,0,255);stroke-width:1;fill-opacity:1;stroke-opacity:1;"/>
+    <path d="M 200 200 L 100 200 " style="fill:rgb(0,0,0);stroke:rgb(0,0,255);stroke-width:1;fill-opacity:1;stroke-opacity:1;"/>
+    <path d="M 100 200 L 100 100 " style="fill:rgb(0,0,0);stroke:rgb(0,0,255);stroke-width:1;fill-opacity:1;stroke-opacity:1;"/>
+</svg>

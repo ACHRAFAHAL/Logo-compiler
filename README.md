@@ -14,9 +14,26 @@ It tokenizes and parses commands, builds an AST, evaluates commands, and compile
 
 ## Project Structure
 
-- `src/main.rs`: parser + AST + Logo compiler that writes `drawing.svg`
+- `src/main.rs`: entry point that parses input, evaluates the AST, and writes `drawing.svg`
+- `src/ast.rs`: AST definition and evaluation logic
+- `src/language.rs`: lexer and grammar rules + input parsing (`santiago`)
+- `src/logo.rs`: turtle compiler that converts AST commands to SVG paths
 - `src/bin/test_svg.rs`: standalone SVG example that writes `square.svg`
 - `Cargo.toml`: package metadata and dependencies
+
+Current tree:
+
+```text
+tp2/
+|- Cargo.toml
+|- src/
+|  |- main.rs
+|  |- ast.rs
+|  |- language.rs
+|  |- logo.rs
+|  \- bin/
+|     \- test_svg.rs
+```
 
 ## Supported Language
 
